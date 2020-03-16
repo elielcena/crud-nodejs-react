@@ -13,7 +13,6 @@ module.exports = {
     async show(req, res) {
         try {
             const produto = await Produto.findById(req.params.id);
-
             return res.status(200).json(produto);
         } catch (err) {
             return res.status(400).json(err);
@@ -32,7 +31,6 @@ module.exports = {
     async update(req, res) {
         try {
             const produto = await Produto.findByIdAndUpdate(req.params.id, req.body, { new: true });
-
             return res.status(200).json(produto);
         } catch (err) {
             return res.status(400).json(err);
@@ -42,7 +40,6 @@ module.exports = {
     async destroy(req, res) {
         try {
             await Produto.findByIdAndRemove(req.params.id);
-
             return res.status(200).json({ message: 'Excluido com sucesso!' });
         } catch (err) {
             return res.status(400).json(err);
