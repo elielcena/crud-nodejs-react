@@ -2,8 +2,9 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 // ROTAS
-const produtoRouter = require('./routes/produto');
+const loginRouter = require('./routes/login');
 const usuarioRouter = require('./routes/usuario');
+const produtoRouter = require('./routes/produto');
 
 // PORTA DO SEVIDOR
 const PORT = 8282;
@@ -17,7 +18,8 @@ mongoose.connect('mongodb://mongo:27017', {
 });
 
 app.use(express.json());
-app.use(produtoRouter);
+app.use(loginRouter);
 app.use(usuarioRouter);
+app.use(produtoRouter);
 
 app.listen(PORT);

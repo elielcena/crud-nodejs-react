@@ -7,14 +7,27 @@ services:
         image: mongo
         ports: 
             - 27017:27017
-    node:
+    backend:
         container_name: BACKEND-SERVER
         restart: always
-        build: ./backend
+        build: ./backend/
         command: npm start
+        volumes:
+            - ./backend/:/usr/app
+            - /usr/app/node_modules
         ports:
             - 8282:8282
-        volumes:
-            - ./backend:/usr/src/app
         depends_on: 
             - mongo
+    frontend:
+        container_name: FRONTEND-SERVER
+        restart: always
+        build: ./frontend/
+        command: npm start
+        volumes:
+            - ./frontend/:/usr/app
+            - /usr/app/node_modules
+        ports:
+            - 3000:3000
+        depends_on: 
+            - backend
