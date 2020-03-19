@@ -33,10 +33,7 @@ module.exports = {
             usuario.senha = await utils.encriptarSenha(usuario.senha);
             await Usuario.create(usuario);
 
-            return res.status(200).json({
-                message: message.salvoComSucesso,
-                token: utils.gerarToken({ id: usuario.id }),
-            });
+            return res.status(200).json({ message: message.salvoComSucesso });
         } catch (err) {
             return res.status(400).json({ error: err.message });
         }
