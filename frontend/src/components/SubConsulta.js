@@ -43,7 +43,7 @@ class SubConsulta extends Component {
           {this.props.obj.valor}
         </td>
         <td>
-          <Link to={"/alterar/" + this.props.obj._id} className="btn btn-primary">Edit</Link>
+          <Link to={"/alterar/" + this.props.obj._id} className="btn btn-primary">Editar</Link>
         </td>
         <td>
           <button onClick={this.delete} className="btn btn-danger">Delete</button>
