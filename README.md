@@ -33,19 +33,29 @@ Você precisará primeiro baixar e instalar o [Docker Desktop](https://www.docke
   
 ## Documentações Utilizadas
 https://docs.docker.com/docsarchive/
+
 https://nodejs.org/en/docs/
+
 https://expressjs.com/en/4x/api.html
+
 https://mongodb.github.io/node-mongodb-native/3.5/
+
 https://mongoosejs.com/docs/api.html
+
 https://pt-br.reactjs.org/docs/getting-started.html
+
 https://www.npmjs.com/package/axios
+
 https://github.com/ReactTraining/react-router
 
 ## Referências
 https://mherman.org/blog/dockerizing-a-react-app/
+
 https://www.digitalocean.com/community/tutorials/como-construir-uma-aplicacao-node-js-com-o-docker-pt
+
 https://medium.com/@lameckanao/fazendo-um-crud-com-node-js-mongodb-e-docker-70ee6c8da8ca
 
 ## Videos
 https://www.youtube.com/watch?v=BN_8bCfVp88&list=PL85ITvJ7FLoiXVwHXeOsOuVppGbBzo2dp
+
 https://www.youtube.com/watch?v=lJsgUOj73zg&t=2895s
