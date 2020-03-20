@@ -10,11 +10,13 @@ Backend contem as seguintes tecnologias:
 - [Express.js](https://expressjs.com/) como a camada de estrutura / controlador do servidor.
 - [MongoDB](https://www.mongodb.com/) como banco de dados que servirá aplicação.
 - [Mongoose](https://mongoosejs.com/) como a camada de modelo.
+- [JWT](https://jwt.io/) como crição de tokens para acesso no frontend.
 
 Frontend contem as seguintes tecnologias:
 - [React](https://pt-br.reactjs.org/) para crição das interfaces de usuário.
 - [Axios](https://www.npmjs.com/package/axios) para fazer requisições HTTP no backend nodejs.
 - [React Rounter](https://github.com/ReactTraining/react-router) para gerencia as rotas.
+- [Sweet Alert](https://sweetalert2.github.io/) para emitir mensagens de sucesso, avisos e erros na interface.
 
 
 # Como Instalar e Usar
@@ -47,6 +49,10 @@ https://pt-br.reactjs.org/docs/getting-started.html
 https://www.npmjs.com/package/axios
 
 https://github.com/ReactTraining/react-router
+
+https://sweetalert2.github.io/
+
+https://jwt.io/introduction/
 
 ## Referências
 https://mherman.org/blog/dockerizing-a-react-app/
