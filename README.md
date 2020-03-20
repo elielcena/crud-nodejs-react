@@ -31,7 +31,7 @@ Você precisará primeiro baixar e instalar o [Docker Desktop](https://www.docke
   - Interfaces React Frontend: `http://localhost:3000/`
   
   
-## Documentação Utilizadas
+## Documentações Utilizadas
 https://docs.docker.com/docsarchive/
 https://nodejs.org/en/docs/
 https://expressjs.com/en/4x/api.html
