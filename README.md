@@ -3,7 +3,7 @@
 # Sobre
 API RESTFul backend e frontend baseada em CRUD de Produto com autenticação de usuario
 
-Backend contem as seguintes partes:
+Backend contem as seguintes tecnologias:
 
 - [Docker](https://www.docker.com/) como o serviço de contêiner para isolar o ambiente.
 - [Node.js](https://nodejs.org/en/) como ambiente de execução Javascript no servidor.
@@ -11,7 +11,7 @@ Backend contem as seguintes partes:
 - [MongoDB](https://www.mongodb.com/) como banco de dados que servirá aplicação.
 - [Mongoose](https://mongoosejs.com/) como a camada de modelo.
 
-Frontend contem as seguintes partes:
+Frontend contem as seguintes tecnologias:
 - [React](https://pt-br.reactjs.org/) para crição das interfaces de usuário.
 - [Axios](https://www.npmjs.com/package/axios) para fazer requisições HTTP no backend nodejs.
 - [React Rounter](https://github.com/ReactTraining/react-router) para gerencia as rotas.
