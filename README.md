@@ -19,7 +19,7 @@ Frontend contem as seguintes partes:
 # Como Instalar e Usar
 Você precisará primeiro baixar e instalar o [Docker Desktop](https://www.docker.com/products/docker-desktop) ou [Linux](https://docs.docker.com/install/linux/docker-ce/ubuntu/), agora segue passo a passo abaixo.
 
-- Fazer Fork ou Clone do Repositório.
+- Faça um Fork ou Clone do Repositório.
 - Abre a pasta em um Terminal, Command Prompt ou Shell e execulte `docker-compose up` para iniciar os containers, sendo eles:
   - DB-SERVER contendo o mongodb (banco de dados NoSQL).
   - BACKEND-SERVER contendo nodejs (api backend).
