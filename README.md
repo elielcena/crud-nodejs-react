@@ -3,7 +3,7 @@
 # Sobre
 API RESTFul backend e frontend baseada em CRUD de Produto com autenticação de usuario
 
-Projeto contem as seguintes partes:
+Backend contem as seguintes partes:
 
 - [Docker](https://www.docker.com/) como o serviço de contêiner para isolar o ambiente.
 - [Node.js](https://nodejs.org/en/) como ambiente de execução Javascript no servidor.
